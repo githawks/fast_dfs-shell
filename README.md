@@ -21,3 +21,5 @@ tracker_server=106.14.155.43:22122   ip修改成你自己的服务器即可
   fdfs_upload_file /etc/fdfs/client.conf niceyoo.txt
   d. 把返回的group1/M00/00/00/CtM3BF84iz2AWE_JAAAACBfWGpM793.txt这个保存下来
   e. 在浏览器中输入 http://ip:8550/group1/M00/00/00/CtM3BF84iz2AWE_JAAAACBfWGpM793.txt    访问即成功
+
+track 主要是做调度工作，storage 是存储节点 所以 秘钥之类的  一般是在storage 存储节点配置
